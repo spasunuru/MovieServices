@@ -6,12 +6,12 @@ It is maven project and can be imported as a eclipse maven project
 The services that being developed are 
 
 1. 	create movie : /movie/create
-	Sample Payload
-	{"id":2, "name": "Inception", "director": "james"}
+	: Sample Payload
+	: {"id":2, "name": "Inception", "director": "james"}
 
 2.  update movie : /movie/update/{id}
-	Sample Payload
-	{"id":2, "name": "Inception", "director": "james"}
+	: Sample Payload
+	: {"id":2, "name": "Inception", "director": "james"}
 
 3. 	delete movie : /movie/delete/{id}
 
