@@ -3,6 +3,14 @@
 Movie Restfull Services with Spring mvc
 It is maven project and can be imported as a eclipse maven project 
 
+To build the artifacts
+
+mvn clean install
+
+To run the test cases alone
+
+mvn test
+
 The services that being developed are 
 
 1. 	create movie : /movie/create
