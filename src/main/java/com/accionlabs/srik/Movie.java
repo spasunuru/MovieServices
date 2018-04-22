@@ -6,6 +6,17 @@ public class Movie implements Serializable{
 
 	private static final long serialVersionUID = -7788619177798333712L;
 	
+	public Movie() {
+		
+	}
+	
+	public Movie(int id, String name, String director) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.director = director;
+	}
+
 	private int id;
 	private String name;
 	private String director;
